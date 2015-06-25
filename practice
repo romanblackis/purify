@@ -1,0 +1,8 @@
+def purify(x):
+    pure = []
+    for i in x:
+        if i % 2 ==0:
+            pure.append(i)
+    return pure
+
+print purify([1,2,2])
